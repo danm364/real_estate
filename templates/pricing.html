@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Pricing
+{% endblock %}
+
+{% block main %}
+
+<div class="container text-center">
+    <div class="row align-items-start">
+      <div id="pricingcol" class="col border border-danger border-4 rounded p-3 mb-2 bg-dark text-white gy-1 gx-1">
+            <h1>Basic</h1>
+            <h2>Free</h2>
+            <ul>
+                <li>low speed</li>
+                <li>Access to 10% of APIs</li>
+                <br>
+                <button type="button" class="btn btn-light">Buy</button>
+            </ul>
+      </div>
+      <div id="pricingcol" class="col border border-white border-4 rounded p-3 mb-2 bg-dark text-white gy-1 gx-1">
+        <h1>Pro</h1>
+        <h2>100$/month</h2>
+        <ul>
+            <li>Moderate speed</li>
+            <li>Access to 70% of APIs</li>
+            <br>
+            <button type="button" class="btn btn-light">Buy</button>
+        </ul>
+      </div>
+      <div id="pricingcol" class="col border border-success border-4 rounded p-3 mb-2 bg-dark text-white gy-1 gx-1">
+        <h1>Enterprise</h1>
+        <h2>200$/month</h2>
+        <ul>
+            <li>High speed</li>
+            <li>Access to 100% of APIs</li>
+            <br>
+            <button type="button" class="btn btn-light">Buy</button>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+{% endblock %}
